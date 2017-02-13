@@ -3815,9 +3815,9 @@ infrared emitting diode, Infineon</description>
 </classes>
 <parts>
 <part name="SV1" library="con-lsta" deviceset="FE05-1" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V" value="2.5"/>
-<part name="RB" library="resistor" deviceset="R-EU_" device="0204/2V" value="2.7k"/>
-<part name="Q1" library="transistor-npn" deviceset="2N3565" device="" value="2N2222"/>
+<part name="2.5" library="resistor" deviceset="R-EU_" device="0204/2V"/>
+<part name="2.7K" library="resistor" deviceset="R-EU_" device="0204/2V"/>
+<part name="2N2222" library="transistor-npn" deviceset="2N3565" device="" value=""/>
 <part name="D1" library="led" deviceset="SFH482" device="" value="IR LED"/>
 </parts>
 <sheets>
@@ -3826,9 +3826,9 @@ infrared emitting diode, Infineon</description>
 </plain>
 <instances>
 <instance part="SV1" gate="G$1" x="2.54" y="71.12"/>
-<instance part="R1" gate="G$1" x="20.32" y="66.04"/>
-<instance part="RB" gate="G$1" x="48.26" y="76.2" rot="R90"/>
-<instance part="Q1" gate="G$1" x="43.18" y="71.12" rot="R180"/>
+<instance part="2.5" gate="G$1" x="20.32" y="66.04"/>
+<instance part="2.7K" gate="G$1" x="48.26" y="76.2" rot="R90"/>
+<instance part="2N2222" gate="G$1" x="43.18" y="71.12" rot="R180"/>
 <instance part="D1" gate="1" x="33.02" y="66.04" rot="R90"/>
 </instances>
 <busses>
@@ -3841,7 +3841,7 @@ infrared emitting diode, Infineon</description>
 <label x="10.16" y="76.2" size="1.778" layer="95"/>
 <wire x1="27.94" y1="76.2" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="RB" gate="G$1" pin="2"/>
+<pinref part="2.7K" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="83.82" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3850,7 +3850,7 @@ infrared emitting diode, Infineon</description>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
 <label x="10.16" y="66.04" size="1.778" layer="95"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="2.5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3859,28 +3859,28 @@ infrared emitting diode, Infineon</description>
 <wire x1="10.16" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <label x="10.16" y="73.66" size="1.778" layer="95"/>
 <wire x1="30.48" y1="73.66" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="2N2222" gate="G$1" pin="E"/>
 <wire x1="30.48" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="2.5" gate="G$1" pin="2"/>
 <pinref part="D1" gate="1" pin="A"/>
 <wire x1="25.4" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="RB" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
+<pinref part="2.7K" gate="G$1" pin="1"/>
+<pinref part="2N2222" gate="G$1" pin="B"/>
 <wire x1="48.26" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="D1" gate="1" pin="C"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="2N2222" gate="G$1" pin="C"/>
 <wire x1="38.1" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>

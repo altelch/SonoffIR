@@ -23,8 +23,8 @@ UsedLibrary="C:/Users/krupp/Desktop/UP/captain-slow.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="567 99 1166 498"
-State=1
+Loc="-8 -31 591 368"
+State=2
 Number=0
 
 [Desktop]
