@@ -1,0 +1,32 @@
+[Eagle]
+Version="07 07 00"
+Platform="Windows"
+Serial="742E29C14D-LSR-WLM-1ES"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/con-lsta.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/con-wago-500.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/con-wago255.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/diode.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/fuse.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/led.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/pinhead.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/resistor.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/transistor-npn.lbr"
+UsedLibrary="C:/Program Files (x86)/Eagle-7.7.0/lbr/varistor.lbr"
+UsedLibrary="C:/Users/krupp/Desktop/UP/wemos.lbr"
+UsedLibrary="C:/Users/krupp/Desktop/UP/SRD-05VDC-SL-C.lbr"
+UsedLibrary="C:/Users/krupp/Desktop/UP/captain-slow.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="567 99 1166 498"
+State=1
+Number=0
+
+[Desktop]
+Screen="1680 1050"
+Window="Win_1"
